@@ -4,11 +4,28 @@
 </head>
 <body>
 	<h1>SunMedia JS Tests</h1>
-	<h2>01-01 </h2>
+	<h2>01-01</h2>
 	<p>
 		rgb = { red: "#FF0000", green: "#00FF00", blue: "#0000FF", white: "#FFFFFF", black: "#000000" };
 		wb = { white: "#FFFFFF", black: "#000000" };
 		colors = { red: "#FF0000", green: "#00FF00", blue: "#0000FF", white: "#FFFFFF", black: "#000000" };
+	</p>
+	<h2>01-02</h2>
+	<p>
+		<code>
+		const rgb = {
+		    red: "#FF0000",
+		    green: "#00FF00",
+		    blue: "#0000FF"
+		};
+	
+		const wb = {
+		    white: "#FFFFFF",
+		    black: "#000000"
+		};
+
+		var colors = Object.assign({}, rgb, wb);
+		</code>
 	</p>
 </body>
 </html>
