@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>SunMedia JS Tests: 03-01</title>
+</head>
+<body>
+	<h1>03-01</h1>
+	<p>
+		function yesCallback( respuesta ){ <br />
+		    console.log("Yes! " + respuesta); <br />
+		}<br /><br />
+
+		function noCallback( respuesta ){<br />
+		    console.log("No! " + respuesta);<br />
+		}<br /><br />
+
+		setTimeout(function () {<br />
+		if (Math.round(Math.random()) === 1) {<br />
+		    yesCallback("Success!");<br />
+		} else {<br />
+		    noCallback("Fail!");<br />
+		}
+	</p>
+</body>
